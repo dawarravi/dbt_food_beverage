@@ -2,7 +2,7 @@
 view: sales_mkt_expenses {
   # The sql_table_name parameter indicates the underlying database table
   # to be used for all fields in this view.
-  sql_table_name: "PUBLIC"."SALES_MKT_EXPENSES"
+  sql_table_name: "POSTGRES_RDS_DEMO"."SALES_MKT_EXPENSES"
     ;;
   # No primary key is defined for this view. In order to join this view in an Explore,
   # define primary_key: yes on a dimension that has no repeated values.
