@@ -18,7 +18,7 @@ view: instacart_beverages_order_customer {
 
   dimension: aisle_id {
     type: number
-    sql: ${TABLE}.aisle_id ;;
+    sql: ${TABLE}."aisle_id" ;;
   }
 
   dimension: customer_mobile {
