@@ -7,7 +7,7 @@ application: atlan-looker-embed {
   mount_points: {
     dashboard_vis: yes
     dashboard_tile: yes
-    standalone: yes
+    standalone: no
   }
   entitlements: {
     use_form_submit: yes  # Include this if your extension needs to submit forms
