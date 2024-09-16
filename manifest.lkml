@@ -7,7 +7,7 @@ application: atlan-looker-embed {
   mount_points: {
     dashboard_vis: yes
     dashboard_tile: yes
-    standalone: no
+    standalone: yes
   }
   entitlements: {
     local_storage: yes
