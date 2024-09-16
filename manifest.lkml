@@ -1,7 +1,7 @@
 project_name: "dbt_food_beverage"
 
 application: atlan-looker-embed {
-  label: "atlan-looker-embed"
+  label: "Atlan Looker Embed"
   url: "https://localhost:8080/bundle.js"
   # file: "bundle.js
   mount_points: {
