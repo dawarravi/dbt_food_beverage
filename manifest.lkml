@@ -10,17 +10,16 @@ application: atlan-looker-embed {
     standalone: yes
   }
   entitlements: {
-    local_storage: yes
-    navigation: no
-    new_window: no
-    new_window_external_urls: []
-    use_form_submit: yes
-    use_embeds: no
-    use_iframes: no
-    use_clipboard: no
-    core_api_methods: ["run_inline_query", "all_dashboards"]
-    external_api_urls: []
-    oauth2_urls: []
+    use_form_submit: yes  # Include this if your extension needs to submit forms
+    use_embeds: yes  # Include this if your extension needs to create embeds
+    use_iframes: yes  # Include this if your extension needs to create iframes
+    use_clipboard: yes  # Include this if your extension needs clipboard access
+    local_storage: yes  # Include this if your extension needs to use local storage
+    navigation: yes  # Include this if your extension needs to navigate
+    new_window: yes  # Include this if your extension needs to open new windows
+    core_api_methods: ["all_dashboards", "dashboard", "run_query"]  # Add any core API methods your extension needs
+    external_api_urls: ["https://your-api-domain.com"]  # Add any external API URLs your extension needs to access
+    oauth2_urls: ["https://your-oauth-provider.com"]  # Add any OAuth2 URLs your extension needs
   }
 
 
