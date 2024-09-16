@@ -18,8 +18,8 @@ application: atlan-looker-embed {
     navigation: yes  # Include this if your extension needs to navigate
     new_window: yes  # Include this if your extension needs to open new windows
     core_api_methods: ["all_dashboards", "dashboard", "run_query"]  # Add any core API methods your extension needs
-    external_api_urls: ["https://your-api-domain.com"]  # Add any external API URLs your extension needs to access
-    oauth2_urls: ["https://your-oauth-provider.com"]  # Add any OAuth2 URLs your extension needs
+    external_api_urls: ["https://localhost:8080","http://localhost:8080"]  # Add any external API URLs your extension needs to access
+    oauth2_urls: ["https://localhost:8080","http://localhost:8080"]  # Add any OAuth2 URLs your extension needs
   }
 
 
