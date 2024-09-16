@@ -11,12 +11,17 @@ application: atlan-looker-embed {
   }
   entitlements: {
     local_storage: yes
+    navigation: no
+    new_window: no
+    new_window_external_urls: []
     use_form_submit: yes
-    core_api_methods: ["run_inline_query"]
+    use_embeds: no
+    use_iframes: no
+    use_clipboard: no
+    core_api_methods: ["run_inline_query", "all_dashboards"]
     external_api_urls: []
     oauth2_urls: []
-    scoped_user_attributes: []
-    global_user_attributes: []
   }
+
 
 }
